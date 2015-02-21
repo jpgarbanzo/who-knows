@@ -2,7 +2,7 @@ use wk;
 db.profile.insert({
 	identificator : "klam",
 	name : "Kasen Lam",
-	picture : "/public/images/projects/klam.png",
+	picture : "/images/people/perfil_1.png",
 	expertise : {
 		Javascript : 9999,
 		HTML : 9999,
@@ -36,7 +36,7 @@ db.profile.insert({
 						name : "klam"
 					}
 				],
-				picture : '/public/images/projects/wk.png'
+				picture : '/images/projects/portafolio_1.png'
 			}
 		]
 })
