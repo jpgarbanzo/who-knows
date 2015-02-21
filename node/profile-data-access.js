@@ -27,6 +27,7 @@ var schema = mongoose.Schema({
 	country : String,
 	email : String,
 	phone : String,
+	location : String,
 	projects : [projectSchema]
 });
 

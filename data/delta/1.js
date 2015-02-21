@@ -17,6 +17,8 @@ db.profile.insert({
 
 	phone : "8888-8888",
 
+	location : 'San Jose. Costa Rica, Av 24',
+
 	projects : [
 			{
 				projectId : "wk",
@@ -37,4 +39,4 @@ db.profile.insert({
 				picture : '/public/images/projects/wk.png'
 			}
 		]
-});
+})
