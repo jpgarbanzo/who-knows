@@ -4,7 +4,7 @@
 @import "_button.scss";
 @import "vendor/bootstrap/_bootstrap.scss";
 @import "_util.scss";
- 
+
 body {
   font: 14px Futura, 'Trebuchet MS', Arial, sans-serif;
   text-shadow: none !important;
@@ -22,11 +22,16 @@ a {
     margin-right: 3px;
 }
 
+.mastfoot {
+    text-align: center;
+}
+
 h2.section-header {
     font-size: 16px;
     color: $color-dark;
     border-bottom: 1px solid $color-dark;
     padding-bottom: 6px;
+    margin-left: -15px;
 }
 
 @import "search/_search.scss";

@@ -1,10 +1,16 @@
 .person-profile {
+    padding: 20px 0;
+
     .details {
         text-align: left;
         color: $color-light;
 
         .important-details {
             font-size: 16px;
+        }
+
+        div {
+            margin-bottom: 3px;
         }
     }
 
@@ -17,6 +23,10 @@
 
     }
 
+    .expertise {
+        margin-bottom: 6px !important;
+    }
+
     .expertise .technology {
         text-transform: uppercase;
         color: $color-orange;
@@ -26,16 +36,23 @@
         font-size: 12px;
         color: $color-light;
     }
+
+    .help-request {
+        margin-top: 25px;
+        float: right;
+    }
 }
 
 .profile-projects {
     text-align: left;
     background-color: $color-bright;
+    padding-bottom: 20px;
 
     .project {
         background-color: white;
         border-radius: 6px;
         border: 2px solid $color-light;
+        padding-bottom: 5px;
     }
 
     .project-img {
@@ -58,6 +75,11 @@
     .project-stars {
         color: $color-dark;
         text-align: right;
+
+        .stars {
+            font-weight: bold;
+            margin-right: 3px;
+        }
     }
 }
 

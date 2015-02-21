@@ -10,12 +10,10 @@
 
     <title>Cover Template for Bootstrap</title>
     <!-- Bootstrap core CSS -->
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-	<link href="/stylesheets/print.css"  rel="stylesheet" type="text/css" />
-	<link href="/stylesheets/main.css"  rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/main.css"  rel="stylesheet" type="text/css" />
 
     <!-- Custom styles for this template -->
-    <link href="/stylesheets/cover.css" rel="stylesheet">
+
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -24,105 +22,146 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
-	<!--[if IE]>
+    <!--[if IE]>
       <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  	<![endif]-->
+    <![endif]-->
 
   </head>
 
   <body>
 
+
+
+<header role="banner">
+<div class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<a class="navbar-brand" title="" href="http://www.hatchsf.com"><i class="icon-logo"></i>WHO KNOWS</a>
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Michael<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+</div>
+</div>
+</header>
+
+<div class="site-container">
+
+      <div class="row person-profile">
+        <div class="container">
+
+                  <div class="col-xs-3 picture">
+                      <img src="{{picture}}" class="person-picture"/>
+                  </div>
+
+                  <div class="col-xs-4 details">
+                      <div class="name important-details">
+                          {{name}}
+                      </div>
+                      <div class="profession important-details">
+                          {{profession}}
+                      </div>
+                      <div class="expertise">
+                          {{#each expertise}}
+                              <span class="technology">{{name}} </span>
+                          {{/each}}
+                      </div>
+                      <div class="phone contact">
+                          <i class="icon-phone"></i><a href="tel:{{phone}}">{{phone}}</a>
+                      </div>
+                      <div class="email contact">
+                          <i class="icon-mail"></i><a href="mailto:{{email}}">{{email}}</a>
+                      </div>
+                      <div class="location contact">
+                          <i class="icon-location"></i>{{location}}
+                      </div>
+                  </div>
+
+                  <div class="col-xs-5">
+                      <div class="score">
+                      </div>
+                      <div class="help-request">
+                          <button class="btn btn-primary">
+                              Help!
+                          </button>
+                      </div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="profile-projects">
+          <div class="container">
+                  <h2 class="section-header">
+                      {{name}}'s projects
+                  </h2>
+
+                  <div class="row">
+                      {{#each projects}}
+                      <div class="col-xs-3 project">
+                          <div>
+                              <img class="project-img" src="{{picture}}"/>
+                          </div>
+
+                          <div class="project-title">{{projectName}}</div>
+                          <div class="project-tech">
+                              {{#each tech}}
+                                  {{name}}
+                              {{/each}}
+                          </div>
+
+                          <div class="project-members">
+                              {{#each members}}
+                                  {{name}}
+                              {{/each}}
+                          </div>
+
+                          <div class="project-stars">
+                          <span class="stars">
+                              {{stars}}</span><i class="icon-star-full"></i>
+                          </div>
+                      </div>
+                      {{/each}}
+                  </div>
+            </div>
+          </div>
+
+
+
+
+
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
+
+
+
         <div class="cover-container">
 
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Who Knows</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Search</a></li>
-                </ul>
-              </nav>
-            </div>
+          <div class="inner cover">
+            <h1 class="cover-heading">
+
+
+
+            </h1>
+            <p class="lead"></p>
+            <p class="lead">
+            </p>
           </div>
-
-          <div class="row person-profile">
-          	<div class="col-md-3 picture">
-	          	<img src="{{picture}}" class="person-picture"/>
-          	</div>
-
-          	<div class="col-md-4 details">
-          		<div class="name important-details">
-          			{{name}}
-          		</div>
-          		<div class="profession important-details">
-          			{{profession}}
-          		</div>
-          		<div class="expertise">
-          			{{#each expertise}}
-          				<span class="technology">{{name}} </span>
-          			{{/each}}
-          		</div>
-          		<div class="phone contact">
-          			<i class="icon-phone"></i><a href="tel:{{phone}}">{{phone}}</a>
-          		</div>
-          		<div class="email contact">
-          			<i class="icon-mail"></i><a href="mailto:{{email}}">{{email}}</a>
-          		</div>
-          		<div class="location contact">
-          			<i class="icon-location"></i>{{location}}
-          		</div>
-          	</div>
-
-          	<div class="col-md-5">
-          		<div class="score">
-          		</div>
-          		<div class="help-request">
-          			<button class="btn btn-primary">
-          				Help!
-          			</button>
-          		</div>
-          	</div>
-          </div>
-
-          <div class="profile-projects">
-          	<h2 class="section-header">
-          		{{name}}'s projects
-          	</h2>
-
-          	<div class="row">
-	          	{{#each projects}}
-	          	<div class="col-md-3 project">
-	          		<div>
-	          			<img class="project-img" src="{{picture}}"/>
-	          		</div>
-
-	        	  	<div class="project-title">{{projectName}}</div>
-	        	  	<div class="project-tech">
-	        	  		{{#each tech}}
-	        	  			{{name}}
-	        	  		{{/each}}
-	        	  	</div>
-
-	        	  	<div class="project-members">
-	        	  		{{#each members}}
-	        	  			{{name}}
-	        	  		{{/each}}
-	        	  	</div>
-
-                    <div class="project-stars">
-                        {{stars}}<i class="icon-star-full"></i>
-                    </div>
-	        	</div>
-	        	{{/each}}
-          	</div>
-          </div>
-
-
 
           <div class="mastfoot">
             <div class="inner">
@@ -130,17 +169,18 @@
             </div>
           </div>
 
+
+
         </div>
 
       </div>
-
     </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="/javascripts/vendor/bootstrap-sass-twbs/assets/javascripts/bootstrap.js"></script>
-    <script data-main="/javascripts/main" src="/javascripts/vendor/requirejs/require.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/javascripts/vendor/bootstrap-sass-twbs/assets/javascripts/bootstrap.js"></script> -->
+    <script data-main="javascripts/main" src="/javascripts/vendor/requirejs/require.js"></script>
   </body>
 </html>
