@@ -2493,32 +2493,36 @@
   color: #353535;
 }
 /* line 26, ../sass/_profile.scss */
+.person-profile .picture {
+  text-align: center;
+}
+/* line 30, ../sass/_profile.scss */
 .person-profile .expertise {
   margin-bottom: 6px !important;
 }
-/* line 30, ../sass/_profile.scss */
+/* line 34, ../sass/_profile.scss */
 .person-profile .expertise .technology {
   text-transform: uppercase;
   color: #E77259;
 }
-/* line 35, ../sass/_profile.scss */
+/* line 39, ../sass/_profile.scss */
 .person-profile .contact, .person-profile .contact a {
   font-size: 12px;
   color: #969696;
 }
-/* line 40, ../sass/_profile.scss */
+/* line 44, ../sass/_profile.scss */
 .person-profile .help-request {
   margin-top: 25px;
   float: right;
 }
 
-/* line 46, ../sass/_profile.scss */
+/* line 50, ../sass/_profile.scss */
 .profile-projects {
   text-align: left;
   background-color: #F0EFEF;
   padding-bottom: 20px;
 }
-/* line 51, ../sass/_profile.scss */
+/* line 55, ../sass/_profile.scss */
 .profile-projects .project {
   background-color: white;
   border-radius: 6px;
@@ -2527,31 +2531,31 @@
   margin-bottom: 25px;
   position: relative;
 }
-/* line 59, ../sass/_profile.scss */
+/* line 63, ../sass/_profile.scss */
 .profile-projects .project .project-info {
   margin: 0 10px;
 }
-/* line 64, ../sass/_profile.scss */
+/* line 68, ../sass/_profile.scss */
 .profile-projects .project-img {
   width: 100%;
   margin-bottom: 6px;
 }
-/* line 69, ../sass/_profile.scss */
+/* line 73, ../sass/_profile.scss */
 .profile-projects .project-title {
   font-size: 16px;
   color: #E77259;
 }
-/* line 74, ../sass/_profile.scss */
+/* line 78, ../sass/_profile.scss */
 .profile-projects .project-tech, .profile-projects .project-members {
   color: #969696;
   height: 18px;
   overflow: hidden;
 }
-/* line 80, ../sass/_profile.scss */
+/* line 84, ../sass/_profile.scss */
 .profile-projects .project-tech {
   text-transform: uppercase;
 }
-/* line 84, ../sass/_profile.scss */
+/* line 88, ../sass/_profile.scss */
 .profile-projects .project-stars {
   color: #353535;
   text-align: right;
@@ -2559,13 +2563,13 @@
   bottom: 10px;
   right: 8px;
 }
-/* line 91, ../sass/_profile.scss */
+/* line 95, ../sass/_profile.scss */
 .profile-projects .project-stars .stars {
   font-weight: bold;
   margin-right: 3px;
 }
 
-/* line 98, ../sass/_profile.scss */
+/* line 102, ../sass/_profile.scss */
 .person-picture {
   border-radius: 50%;
 }
