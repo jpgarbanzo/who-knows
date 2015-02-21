@@ -10,9 +10,9 @@ router.get('/', function(req, res, next) {
   			result : result
   		});
 	})
-	.fail(function (e) {
+	.fail(function (error) {
 		res.json({
-  			result : result
+  			result : error
   		});
 	})
 });
