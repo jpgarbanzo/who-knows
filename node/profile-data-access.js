@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
- 
+
 mongoose.connect('mongodb://localhost/wk');
 
 var expertiseSchema = mongoose.Schema({
@@ -20,7 +20,8 @@ var projectSchema = mongoose.Schema({
 	projectName : String,
 	tech : [techSchema],
 	members : [projectMemberSchema],
-	picture : String
+	picture : String,
+    stars : Number
 });
 
 var schema = mongoose.Schema({

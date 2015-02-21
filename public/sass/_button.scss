@@ -1,0 +1,10 @@
+.btn.btn-primary {
+    background-color: $color-orange;
+    border-radius: 20px;
+    border: 0;
+    font-weight: bold;
+
+    &:hover, &:focus {
+        background-color: $color-orange
+    }
+}

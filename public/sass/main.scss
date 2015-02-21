@@ -1,18 +1,32 @@
 @import "_icons.scss";
 @import "_variables.scss";
+@import "_profile.scss";
+@import "_button.scss";
 @import "vendor/bootstrap/_bootstrap.scss";
 @import "_util.scss";
  
 body {
   font: 14px Futura, 'Trebuchet MS', Arial, sans-serif;
+  text-shadow: none !important;
 }
 
 a {
-  color: #00B7FF;
+  color: $color-dark;
 }
 
 .site-container {
 	margin-top: 50px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    margin-right: 3px;
+}
+
+h2.section-header {
+    font-size: 16px;
+    color: $color-dark;
+    border-bottom: 1px solid $color-dark;
+    padding-bottom: 6px;
 }
 
 @import "search/_search.scss";
