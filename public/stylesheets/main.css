@@ -11012,11 +11012,68 @@ button.close {
 }
 /* line 6, ../sass/main.scss */
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
-/* line 11, ../sass/main.scss */
+/* line 10, ../sass/main.scss */
 a {
   color: #00B7FF;
+}
+
+/* line 14, ../sass/main.scss */
+.site-container {
+  margin-top: 50px;
+}
+
+/* line 3, ../sass/search/_search.scss */
+.search-container {
+  position: relative;
+}
+/* line 6, ../sass/search/_search.scss */
+.search-container .search-bg {
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+/* line 16, ../sass/search/_search.scss */
+.search-container .icon-search {
+  position: absolute;
+  top: 7px;
+  left: 14px;
+}
+/* line 21, ../sass/search/_search.scss */
+.search-container .search-box-wrap {
+  margin: 10px auto;
+  width: 50%;
+  font-size: 25px;
+  position: relative;
+  color: #353535;
+  padding: 16px 0px;
+}
+/* line 29, ../sass/search/_search.scss */
+.search-container .search-box-inner {
+  position: relative;
+}
+/* line 32, ../sass/search/_search.scss */
+.search-container .search-box {
+  width: 100%;
+  padding-left: 49px;
+  border-radius: 18px;
+}
+
+/* line 3, ../sass/search/_results.scss */
+.search-results .search-results-list li {
+  list-style: none;
+}
+
+/* line 3, ../sass/search/_result-item.scss */
+.result-item .photo-wrap {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
 }

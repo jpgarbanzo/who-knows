@@ -1,13 +1,19 @@
 @import "_icons.scss";
 @import "_variables.scss";
 @import "vendor/bootstrap/_bootstrap.scss";
- 
+@import "_util.scss";
  
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
+
+.site-container {
+	margin-top: 50px;
+}
+
+@import "search/_search.scss";
+@import "search/_results.scss";
