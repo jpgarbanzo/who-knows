@@ -41,7 +41,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Who Knows {{ someone }}</h3>
+              <h3 class="masthead-brand">Who Knows {{name}}</h3>
               <nav>
                 <ul class="nav masthead-nav">
                   <li class="active"><a href="#">Search</a></li>
@@ -50,15 +50,56 @@
             </div>
           </div>
 
-          <div class="inner cover">
-            <h1 class="cover-heading">
-            <input type="text" name="Buscar">
+          <div class="row profile-person">
+          	<div class="col-md-2 picture">
+	          	<img src="{{picture}}"/>
+          	</div>
 
-            </h1>
-            <p class="lead"></p>
-            <p class="lead">
-            </p>
+          	<div class="col-md-3 details">
+          		asd;lkfj as;ldfkj as;ldfkj as;dklfj 
+          	</div>
+
+          	<div class="col-md-1">
+          		<div class="score">
+          		</div>
+          		<div class="help-request">
+          			<button class="btn btn-primary">
+          				HELP
+          			</button>
+          		</div>
+          	</div>
           </div>
+
+          <div class="projects">
+          	<h2>
+          		{{name}}'s projects
+          	</h2>
+
+          	<div class="row">
+	          	{{#each projects}} 
+	          	<div class="col-md-1 project">
+	          		<div class="project-img">
+	          			<img src="{{picture}}"/>
+	          		</div>
+
+	        	  	<div>{{projectName}}</div>
+	        	  	<div class="project-tech"> 
+	        	  		{{#each tech}} 
+	        	  			{{name}}
+	        	  		{{/each}}
+	        	  	</div>
+
+	        	  	<div class="project-members"> 
+	        	  		{{#each members}} 
+	        	  			{{name}}
+	        	  		{{/each}}
+	        	  	</div>
+	        	</div>
+	        	{{/each}}
+          	</div>	
+          </div>
+
+
 
           <div class="mastfoot">
             <div class="inner">

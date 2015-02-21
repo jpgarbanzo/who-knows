@@ -4,14 +4,19 @@ var Profile = require('../node/profile-data-access');
 
 /* GET profile page. */
 router.get('/:id', function(req, res, next) {
-	Profile.getById(req.params.id, function(err, res) {
+	Profile.getById(req.params.id, function(err, profile) {
 		if (err) return console.error(err);
-  		console.log(res);
+
+		
+		profile.layout = false;
+		res.render('profile', profile);
+		
+  		console.log(profile);
 	});
 
 
 
-    res.render('profile', {layout:false, someone:req.params.id});
+    
 });
 
 module.exports = router;

@@ -20,8 +20,20 @@ db.profile.insert({
 	projects : [
 			{
 				projectId : "wk",
-				tech : ["Javascript", "CSS"],
-				members : ["klam"],
+				projectName : "Who knows",
+				tech : [ 
+					{
+						name : "Javascript"
+					}, 
+					{
+						name : "CSS"
+					}
+				],
+				members : [
+					{
+						name : "klam"
+					}
+				],
 				picture : '/public/images/projects/wk.png'
 			}
 		]
