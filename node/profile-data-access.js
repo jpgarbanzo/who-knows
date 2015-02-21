@@ -2,6 +2,11 @@ var mongoose = require('mongoose');
  
 mongoose.connect('mongodb://localhost/wk');
 
+var expertiseSchema = mongoose.Schema({
+	name : String,
+	score : Number
+});
+
 var projectMemberSchema = mongoose.Schema({
 	name : String
 });
@@ -22,7 +27,7 @@ var schema = mongoose.Schema({
 	identificator : String,
 	name : String,
 	picture : String,
-	expertise : Object,
+	expertise : [expertiseSchema],
 	profession : String,
 	country : String,
 	email : String,

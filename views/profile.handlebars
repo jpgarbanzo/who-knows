@@ -28,7 +28,7 @@
 	<!--[if IE]>
       <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   	<![endif]-->
-   	
+
   </head>
 
   <body>
@@ -62,8 +62,16 @@
           		<div class="profession">
           			{{profession}}
           		</div>
-          		<div class="phone">
+          		<div class="expertise">
+          			{{#each expertise}}
+          				<span>{{name}} </span>
+          			{{/each}}
+          		</div>
+          		<div class="phone contact">
           			<a href="tel:{{phone}}">{{phone}}</a>
+          		</div>
+          		<div class="email contact">
+          			<a href="tel:{{email}}">{{email}}</a>
           		</div>
           		<div class="location">
           			{{location}}
@@ -87,27 +95,27 @@
           	</h2>
 
           	<div class="row">
-	          	{{#each projects}} 
+	          	{{#each projects}}
 	          	<div class="col-md-1 project">
 	          		<div class="project-img">
 	          			<img src="{{picture}}"/>
 	          		</div>
 
 	        	  	<div>{{projectName}}</div>
-	        	  	<div class="project-tech"> 
-	        	  		{{#each tech}} 
+	        	  	<div class="project-tech">
+	        	  		{{#each tech}}
 	        	  			{{name}}
 	        	  		{{/each}}
 	        	  	</div>
 
-	        	  	<div class="project-members"> 
-	        	  		{{#each members}} 
+	        	  	<div class="project-members">
+	        	  		{{#each members}}
 	        	  			{{name}}
 	        	  		{{/each}}
 	        	  	</div>
 	        	</div>
 	        	{{/each}}
-          	</div>	
+          	</div>
           </div>
 
 
