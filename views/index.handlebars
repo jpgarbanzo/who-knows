@@ -10,8 +10,6 @@
 
     <title>Cover Template for Bootstrap</title>
     <!-- Bootstrap core CSS -->
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-	<link href="/stylesheets/print.css"  rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/main.css"  rel="stylesheet" type="text/css" />
 
     <!-- Custom styles for this template -->
@@ -25,7 +23,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
 	<!--[if IE]>
       <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   	<![endif]-->
@@ -34,11 +31,49 @@
 
   <body>
 
+
+
+<header role="banner">
+<div class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<a class="navbar-brand" title="" href="http://www.hatchsf.com"><i class="icon-logo"></i>WHO KNOWS</a>
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Michael<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+</div>  
+</div>  
+</header>
+
+	<div class="container">
+
+	</div>
+
+
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
+
+
+
         <div class="cover-container">
+
 
           <div class="masthead clearfix">
             <div class="inner">
@@ -53,10 +88,18 @@
 
           <div class="inner cover">
             <h1 class="cover-heading">
+            
+             <div class="search-container">
+             	Search Container
+				<div class="">
+	            	<input id="q" class="search-box" type="search" results="5" autofocus="autofocus" class="form-control" placeholder="e.g. 'Fabián Suarez', OR 'ReactJS'">
+	            </div>
 
-            <div class="search-box">
-            	<input id="q" class="search" type="search" results="5" autofocus="autofocus" class="form-control" placeholder="e.g. 'Fabián Suarez', OR 'ReactJS'">
+	            <div class="search-results"><h3>Search Results</h3>
+
+	            </div>
             </div>
+
             </h1>
             <p class="lead"></p>
             <p class="lead">
@@ -68,15 +111,19 @@
               <p> by Frailes Inc.</p>
             </div>
           </div>
+
+
+
         </div>
+
       </div>
     </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="/javascripts/vendor/bootstrap-sass-twbs/assets/javascripts/bootstrap.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/javascripts/vendor/bootstrap-sass-twbs/assets/javascripts/bootstrap.js"></script> -->
     <script data-main="javascripts/main" src="/javascripts/vendor/requirejs/require.js"></script>
   </body>
 </html>
