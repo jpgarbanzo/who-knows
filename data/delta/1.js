@@ -3,11 +3,20 @@ db.profile.insert({
 	identificator : "klam",
 	name : "Kasen Lam",
 	picture : "/images/people/perfil_1.png",
-	expertise : {
-		Javascript : 9999,
-		HTML : 9999,
-		CSS : 9999
-	},
+	expertise : [
+		{ 
+			name : "javascript",
+			score : 9999
+		},
+		{ 
+			name : "HTML",
+			score : 9999
+		},
+		{ 
+			name : "CSS",
+			score : 9999
+		}
+	],
 
 	profession : "front-end developer",
 
@@ -36,7 +45,9 @@ db.profile.insert({
 						name : "klam"
 					}
 				],
-				picture : '/images/projects/portafolio_1.png'
+				picture : '/images/projects/portafolio_1.png',
+
+				stars : 176
 			}
 		]
 })
