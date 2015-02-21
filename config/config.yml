@@ -47,10 +47,10 @@ curl -XPUT localhost:9200/user/expertise/_mapping -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Liam Brown",
     "expertise" : "HTML5",
-    "expertise_list" : ["HTML5", "Angular", "Saas", "Nodejs", "Flash"],
+    "expertiseList" : ["HTML5", "Angular", "Saas", "Nodejs", "Flash"],
     "weight" : 500,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 1,
+    "photo" : "/images/people/perfil_1.png",
     "phone" : "+506-83097721",
     "email" : "liam.qa+testing@whoknows.com",
     "occupation" : "UX Designer"
@@ -59,10 +59,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Liam Brown",
     "expertise" : "Nodejs",
-    "expertise_list" : ["HTML5", "Angular", "Saas", "Nodejs", "Flash"],
+    "expertiseList" : ["HTML5", "Angular", "Saas", "Nodejs", "Flash"],
     "weight" : 400,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 1,
+    "photo" : "/images/people/perfil_1.png",
     "phone" : "+506-83097721",
     "email" : "liam.qa+testing@whoknows.com",
     "occupation" : "UX Designer"
@@ -71,10 +71,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Liam Brown",
     "expertise" : "Saas",
-    "expertise_list" : ["HTML5", "Nodejs", "Saas", "Angular", "Flash"],
+    "expertiseList" : ["HTML5", "Nodejs", "Saas", "Angular", "Flash"],
     "weight" : 300,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 1,
+    "photo" : "/images/people/perfil_1.png",
     "phone" : "+506-83097721",
     "email" : "liam.qa+testing@whoknows.com",
     "occupation" : "UX Designer"
@@ -83,10 +83,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Liam Brown",
     "expertise" : "Angular",
-    "expertise_list" : ["HTML5", "Nodejs", "Saas", "Angular", "Flash"],
+    "expertiseList" : ["HTML5", "Nodejs", "Saas", "Angular", "Flash"],
     "weight" : 200,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 1,
+    "photo" : "/images/people/perfil_1.png",
     "phone" : "+506-83097721",
     "email" : "liam.qa+testing@whoknows.com",
     "occupation" : "UX Designer"
@@ -95,10 +95,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Liam Brown",
     "expertise" : "Flash",
-    "expertise_list" : ["HTML5", "Nodejs", "Saas", "Angular", "Flash"],
+    "expertiseList" : ["HTML5", "Nodejs", "Saas", "Angular", "Flash"],
     "weight" : 100,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 1,
+    "photo" : "/images/people/perfil_1.png",
     "phone" : "+506-83097721",
     "email" : "liam.qa+testing@whoknows.com",
     "occupation" : "UX Designer"
@@ -107,10 +107,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "David James",
     "expertise" : "Saas",
-    "expertise_list" : ["Saas", "Angular", "Flash", "HTML5", "Nodejs"],
+    "expertiseList" : ["Saas", "Angular", "Flash", "HTML5", "Nodejs"],
     "weight" : 500,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 2,
+    "photo" : "/images/people/perfil_2.png",
     "phone" : "+506-82221338",
     "email" : "david.qa+testing@whoknows.com",
     "occupation" : "Computer Engineer"
@@ -119,10 +119,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "David James",
     "expertise" : "Angular",
-    "expertise_list" : ["Saas", "Angular", "Flash", "HTML5", "Nodejs"],
+    "expertiseList" : ["Saas", "Angular", "Flash", "HTML5", "Nodejs"],
     "weight" : 400,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 2,
+    "photo" : "/images/people/perfil_2.png",
     "phone" : "+506-82221338",
     "email" : "david.qa+testing@whoknows.com",
     "occupation" : "Computer Engineer"
@@ -131,10 +131,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "David James",
     "expertise" : "Flash",
-    "expertise_list" : ["Saas", "Angular", "Flash", "HTML5", "Nodejs"],
+    "expertiseList" : ["Saas", "Angular", "Flash", "HTML5", "Nodejs"],
     "weight" : 300,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 2,
+    "photo" : "/images/people/perfil_2.png",
     "phone" : "+506-82221338",
     "email" : "david.qa+testing@whoknows.com",
     "occupation" : "Computer Engineer"
@@ -143,10 +143,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "David James",
     "expertise" : "HTML5",
-    "expertise_list" : ["Saas", "Angular", "Flash", "HTML5", "Nodejs"],
+    "expertiseList" : ["Saas", "Angular", "Flash", "HTML5", "Nodejs"],
     "weight" : 200,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 2,
+    "photo" : "/images/people/perfil_2.png",
     "phone" : "+506-82221338",
     "email" : "david.qa+testing@whoknows.com",
     "occupation" : "Computer Engineer"
@@ -155,10 +155,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "David James",
     "expertise" : "Nodejs",
-    "expertise_list" : ["Saas", "Angular", "Flash", "HTML5", "Nodejs"],
+    "expertiseList" : ["Saas", "Angular", "Flash", "HTML5", "Nodejs"],
     "weight" : 100,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 2,
+    "photo" : "/images/people/perfil_2.png",
     "phone" : "+506-82221338",
     "email" : "david.qa+testing@whoknows.com",
     "occupation" : "Computer Engineer"
@@ -167,10 +167,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Patricia Morgan",
     "expertise" : "Angular",
-    "expertise_list" : ["Angular", "HTML5", "Nodejs", "Flash", "Saas"],
+    "expertiseList" : ["Angular", "HTML5", "Nodejs", "Flash", "Saas"],
     "weight" : 500,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 3,
+    "photo" : "/images/people/perfil_3.png",
     "phone" : "+506-85239345",
     "email" : "patricia.qa+testing@whoknows.com",
     "occupation" : "Web Developer"
@@ -179,10 +179,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Patricia Morgan",
     "expertise" : "HTML5",
-    "expertise_list" : ["Angular", "HTML5", "Nodejs", "Flash", "Saas"],
+    "expertiseList" : ["Angular", "HTML5", "Nodejs", "Flash", "Saas"],
     "weight" : 400,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 3,
+    "photo" : "/images/people/perfil_3.png",
     "phone" : "+506-85239345",
     "email" : "patricia.qa+testing@whoknows.com",
     "occupation" : "Web Developer"
@@ -191,10 +191,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Patricia Morgan",
     "expertise" : "Nodejs",
-    "expertise_list" : ["Angular", "HTML5", "Nodejs", "Flash", "Saas"],
+    "expertiseList" : ["Angular", "HTML5", "Nodejs", "Flash", "Saas"],
     "weight" : 300,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 3,
+    "photo" : "/images/people/perfil_3.png",
     "phone" : "+506-85239345",
     "email" : "patricia.qa+testing@whoknows.com",
     "occupation" : "Web Developer"
@@ -203,10 +203,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Patricia Morgan",
     "expertise" : "Flash",
-    "expertise_list" : ["Angular", "HTML5", "Nodejs", "Flash", "Saas"],
+    "expertiseList" : ["Angular", "HTML5", "Nodejs", "Flash", "Saas"],
     "weight" : 200,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 3,
+    "photo" : "/images/people/perfil_3.png",
     "phone" : "+506-85239345",
     "email" : "patricia.qa+testing@whoknows.com",
     "occupation" : "Web Developer"
@@ -215,10 +215,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Patricia Morgan",
     "expertise" : "Saas",
-    "expertise_list" : ["Angular", "HTML5", "Nodejs", "Flash", "Saas"],
+    "expertiseList" : ["Angular", "HTML5", "Nodejs", "Flash", "Saas"],
     "weight" : 100,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 3,
+    "photo" : "/images/people/perfil_3.png",
     "phone" : "+506-85239345",
     "email" : "patricia.qa+testing@whoknows.com",
     "occupation" : "Web Developer"
@@ -227,10 +227,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Barbara Stuart",
     "expertise" : "Nodejs",
-    "expertise_list" : ["Nodejs", "Flash", "Angular", "Saas", "HTML5"],
+    "expertiseList" : ["Nodejs", "Flash", "Angular", "Saas", "HTML5"],
     "weight" : 500,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 4,
+    "photo" : "/images/people/perfil_4.png",
     "phone" : "+506-81302322",
     "email" : "barbara.qa+testing@whoknows.com",
     "occupation" : "Backend Developer"
@@ -239,10 +239,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Barbara Stuart",
     "expertise" : "Flash",
-    "expertise_list" : ["Nodejs", "Flash", "Angular", "Saas", "HTML5"],
+    "expertiseList" : ["Nodejs", "Flash", "Angular", "Saas", "HTML5"],
     "weight" : 400,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 4,
+    "photo" : "/images/people/perfil_4.png",
     "phone" : "+506-81302322",
     "email" : "barbara.qa+testing@whoknows.com",
     "occupation" : "Backend Developer"
@@ -251,10 +251,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Barbara Stuart",
     "expertise" : "Angular",
-    "expertise_list" : ["Nodejs", "Flash", "Angular", "Saas", "HTML5"],
+    "expertiseList" : ["Nodejs", "Flash", "Angular", "Saas", "HTML5"],
     "weight" : 300,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 4,
+    "photo" : "/images/people/perfil_4.png",
     "phone" : "+506-81302322",
     "email" : "barbara.qa+testing@whoknows.com",
     "occupation" : "Backend Developer"
@@ -263,10 +263,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Barbara Stuart",
     "expertise" : "Saas",
-    "expertise_list" : ["Nodejs", "Flash", "Angular", "Saas", "HTML5"],
+    "expertiseList" : ["Nodejs", "Flash", "Angular", "Saas", "HTML5"],
     "weight" : 200,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 4,
+    "photo" : "/images/people/perfil_4.png",
     "phone" : "+506-81302322",
     "email" : "barbara.qa+testing@whoknows.com",
     "occupation" : "Backend Developer"
@@ -275,10 +275,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Barbara Stuart",
     "expertise" : "HTML5",
-    "expertise_list" : ["Nodejs", "Flash", "Angular", "Saas", "HTML5"],
+    "expertiseList" : ["Nodejs", "Flash", "Angular", "Saas", "HTML5"],
     "weight" : 100,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 4,
+    "photo" : "/images/people/perfil_4.png",
     "phone" : "+506-81302322",
     "email" : "barbara.qa+testing@whoknows.com",
     "occupation" : "Backend Developer"
@@ -287,10 +287,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Margareth Smith",
     "expertise" : "Flash",
-    "expertise_list" : ["Flash", "Saas", "HTML5", "Nodejs", "Angular"],
+    "expertiseList" : ["Flash", "Saas", "HTML5", "Nodejs", "Angular"],
     "weight" : 500,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 5,
+    "photo" : "/images/people/perfil_5.png",
     "phone" : "+506-82324322",
     "email" : "margareth.qa+testing@whoknows.com",
     "occupation" : "Frontend Developer"
@@ -299,10 +299,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Margareth Smith",
     "expertise" : "Saas",
-    "expertise_list" : ["Flash", "Saas", "HTML5", "Nodejs", "Angular"],
+    "expertiseList" : ["Flash", "Saas", "HTML5", "Nodejs", "Angular"],
     "weight" : 400,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 5,
+    "photo" : "/images/people/perfil_5.png",
     "phone" : "+506-82324322",
     "email" : "margareth.qa+testing@whoknows.com",
     "occupation" : "Frontend Developer"
@@ -311,10 +311,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Margareth Smith",
     "expertise" : "HTML5",
-    "expertise_list" : ["Flash", "Saas", "HTML5", "Nodejs", "Angular"],
+    "expertiseList" : ["Flash", "Saas", "HTML5", "Nodejs", "Angular"],
     "weight" : 300,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 5,
+    "photo" : "/images/people/perfil_5.png",
     "phone" : "+506-82324322",
     "email" : "margareth.qa+testing@whoknows.com",
     "occupation" : "Frontend Developer"
@@ -323,10 +323,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Margareth Smith",
     "expertise" : "Nodejs",
-    "expertise_list" : ["Flash", "Saas", "HTML5", "Nodejs", "Angular"],
+    "expertiseList" : ["Flash", "Saas", "HTML5", "Nodejs", "Angular"],
     "weight" : 200,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 5,
+    "photo" : "/images/people/perfil_5.png",
     "phone" : "+506-82324322",
     "email" : "margareth.qa+testing@whoknows.com",
     "occupation" : "Frontend Developer"
@@ -335,10 +335,10 @@ curl -X POST 'http://localhost:9200/user/expertise' -d '{
 curl -X POST 'http://localhost:9200/user/expertise' -d '{ 
     "name" : "Margareth Smith",
     "expertise" : "Angular",
-    "expertise_list" : ["Flash", "Saas", "HTML5", "Nodejs", "Angular"],
+    "expertiseList" : ["Flash", "Saas", "HTML5", "Nodejs", "Angular"],
     "weight" : 100,
-    "id_user" : 1,
-    "photo" : "/img/people/.png",
+    "idUser" : 5,
+    "photo" : "/images/people/perfil_5.png",
     "phone" : "+506-82324322",
     "email" : "margareth.qa+testing@whoknows.com",
     "occupation" : "Frontend Developer"
