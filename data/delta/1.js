@@ -1,3 +1,4 @@
+db.profile.drop();
 use wk;
 db.profile.insert({
 	identificator : "liam-brown",
@@ -32,7 +33,7 @@ db.profile.insert({
 	location : 'San Jose. Costa Rica, Av 24',
 	projects : [
 			{
-				projectId : 1,
+				projectId : "space-x",
 				projectName : "Space X",
 				tech : [ 
 					{
@@ -58,7 +59,7 @@ db.profile.insert({
 				stars : 176
 			},
 			{
-				projectId : 2,
+				projectId : "falaniux",
 				projectName : "Falaniux",
 				tech : [ 
 					{
@@ -86,7 +87,7 @@ db.profile.insert({
 				stars : 276
 			},
 			{
-				projectId : 3,
+				projectId : "expertise-me",
 				projectName : "Expertise.Me",
 				tech : [ 
 					{
@@ -111,7 +112,7 @@ db.profile.insert({
 				stars : 301
 			},
 			{
-				projectId : 4,
+				projectId : "what-the-zig",
 				projectName : "What the Zig!",
 				tech : [ 
 					{
@@ -139,7 +140,7 @@ db.profile.insert({
 				stars : 434
 			},
 			{
-				projectId : 5,
+				projectId : "essencials",
 				projectName : "Essentials",
 				tech : [ 
 					{
@@ -200,7 +201,7 @@ db.profile.insert({
 	location : 'San Jose. Costa Rica, Av 24',
 	projects : [
 			{
-				projectId : 5,
+				projectId : "essencials",
 				projectName : "Essentials",
 				tech : [ 
 					{
@@ -225,7 +226,7 @@ db.profile.insert({
 				stars : 244
 			},
 			{
-				projectId : 2,
+				projectId : "falaniux",
 				projectName : "Falaniux",
 				tech : [ 
 					{
@@ -253,7 +254,7 @@ db.profile.insert({
 				stars : 276
 			},
 			{
-				projectId : 3,
+				projectId : "expertise-me",
 				projectName : "Expertise.Me",
 				tech : [ 
 					{
@@ -278,7 +279,7 @@ db.profile.insert({
 				stars : 301
 			},
 			{
-				projectId : 1,
+				projectId : "space-x",
 				projectName : "Space X",
 				tech : [ 
 					{
@@ -304,7 +305,7 @@ db.profile.insert({
 				stars : 176
 			},
 			{
-				projectId : 4,
+				projectId : "what-the-zig",
 				projectName : "What the Zig!",
 				tech : [ 
 					{
@@ -367,7 +368,7 @@ db.profile.insert({
 	location : 'San Jose. Costa Rica, Av 24',
 	projects : [
 			{
-				projectId : 3,
+				projectId : "expertise-me",
 				projectName : "Expertise.Me",
 				tech : [ 
 					{
@@ -392,7 +393,7 @@ db.profile.insert({
 				stars : 301
 			},
 			{
-				projectId : 5,
+				projectId : "essencials",
 				projectName : "Essentials",
 				tech : [ 
 					{
@@ -417,7 +418,7 @@ db.profile.insert({
 				stars : 244
 			},
 			{
-				projectId : 2,
+				projectId : "falaniux",
 				projectName : "Falaniux",
 				tech : [ 
 					{
@@ -445,7 +446,7 @@ db.profile.insert({
 				stars : 276
 			},
 			{
-				projectId : 4,
+				projectId : "what-the-zig",
 				projectName : "What the Zig!",
 				tech : [ 
 					{
@@ -473,7 +474,7 @@ db.profile.insert({
 				stars : 434
 			},
 			{
-				projectId : 1,
+				projectId : "space-x",
 				projectName : "Space X",
 				tech : [ 
 					{
@@ -535,7 +536,7 @@ db.profile.insert({
 	location : 'San Jose. Costa Rica, Av 24',
 	projects : [
 			{
-				projectId : 5,
+				projectId : "essencials",
 				projectName : "Essentials",
 				tech : [ 
 					{
@@ -560,7 +561,7 @@ db.profile.insert({
 				stars : 244
 			},
 			{
-				projectId : 3,
+				projectId : "expertise-me",
 				projectName : "Expertise.Me",
 				tech : [ 
 					{
@@ -585,7 +586,7 @@ db.profile.insert({
 				stars : 301
 			},
 			{
-				projectId : 4,
+				projectId : "what-the-zig",
 				projectName : "What the Zig!",
 				tech : [ 
 					{
@@ -613,7 +614,7 @@ db.profile.insert({
 				stars : 434
 			},
 			{
-				projectId : 2,
+				projectId : "falaniux",
 				projectName : "Falaniux",
 				tech : [ 
 					{
@@ -641,7 +642,7 @@ db.profile.insert({
 				stars : 276
 			},
 			{
-				projectId : 1,
+				projectId : "space-x",
 				projectName : "Space X",
 				tech : [ 
 					{
@@ -702,7 +703,7 @@ db.profile.insert({
 	location : 'San Jose. Costa Rica, Av 24',
 	projects : [
 			{
-				projectId : 5,
+				projectId : "essencials",
 				projectName : "Essentials",
 				tech : [ 
 					{
@@ -727,7 +728,7 @@ db.profile.insert({
 				stars : 244
 			},
 			{
-				projectId : 4,
+				projectId : "what-the-zig",
 				projectName : "What the Zig!",
 				tech : [ 
 					{
@@ -755,7 +756,7 @@ db.profile.insert({
 				stars : 434
 			},
 			{
-				projectId : 3,
+				projectId : "expertise-me",
 				projectName : "Expertise.Me",
 				tech : [ 
 					{
@@ -780,7 +781,7 @@ db.profile.insert({
 				stars : 301
 			},
 			{
-				projectId : 2,
+				projectId : "falaniux",
 				projectName : "Falaniux",
 				tech : [ 
 					{
@@ -808,7 +809,7 @@ db.profile.insert({
 				stars : 276
 			},
 			{
-				projectId : 1,
+				projectId : "space-x",
 				projectName : "Space X",
 				tech : [ 
 					{
