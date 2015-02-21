@@ -1,0 +1,7 @@
+/* line 4, ../sass/search.scss */
+.search-box .search {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #EEE;
+}
