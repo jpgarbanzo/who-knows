@@ -1,0 +1,66 @@
+.person-profile {
+    .details {
+        text-align: left;
+        color: $color-light;
+
+        .important-details {
+            font-size: 16px;
+        }
+    }
+
+    .name {
+        font-weight: bold;
+        color: $color-dark;
+    }
+
+    .profession {
+
+    }
+
+    .expertise .technology {
+        text-transform: uppercase;
+        color: $color-orange;
+    }
+
+    .contact, .contact a {
+        font-size: 12px;
+        color: $color-light;
+    }
+}
+
+.profile-projects {
+    text-align: left;
+    background-color: $color-bright;
+
+    .project {
+        background-color: white;
+        border-radius: 6px;
+        border: 2px solid $color-light;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .project-title {
+        font-size: 16px;
+        color: $color-orange;
+    }
+
+    .project-tech, .project-members {
+        color: $color-light;
+    }
+
+    .project-tech {
+        text-transform: uppercase;
+    }
+
+    .project-stars {
+        color: $color-dark;
+        text-align: right;
+    }
+}
+
+.person-picture {
+    border-radius: 50%;
+}

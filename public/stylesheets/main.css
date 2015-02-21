@@ -2470,6 +2470,82 @@
   content: "\eaea";
 }
 
+/* line 2, ../sass/_profile.scss */
+.person-profile .details {
+  text-align: left;
+  color: #969696;
+}
+/* line 6, ../sass/_profile.scss */
+.person-profile .details .important-details {
+  font-size: 16px;
+}
+/* line 11, ../sass/_profile.scss */
+.person-profile .name {
+  font-weight: bold;
+  color: #353535;
+}
+/* line 20, ../sass/_profile.scss */
+.person-profile .expertise .technology {
+  text-transform: uppercase;
+  color: #E77259;
+}
+/* line 25, ../sass/_profile.scss */
+.person-profile .contact, .person-profile .contact a {
+  font-size: 12px;
+  color: #969696;
+}
+
+/* line 31, ../sass/_profile.scss */
+.profile-projects {
+  text-align: left;
+  background-color: #F0EFEF;
+}
+/* line 35, ../sass/_profile.scss */
+.profile-projects .project {
+  background-color: white;
+  border-radius: 6px;
+  border: 2px solid #969696;
+}
+/* line 41, ../sass/_profile.scss */
+.profile-projects .project-img {
+  width: 100%;
+}
+/* line 45, ../sass/_profile.scss */
+.profile-projects .project-title {
+  font-size: 16px;
+  color: #E77259;
+}
+/* line 50, ../sass/_profile.scss */
+.profile-projects .project-tech, .profile-projects .project-members {
+  color: #969696;
+}
+/* line 54, ../sass/_profile.scss */
+.profile-projects .project-tech {
+  text-transform: uppercase;
+}
+/* line 58, ../sass/_profile.scss */
+.profile-projects .project-stars {
+  color: #353535;
+  text-align: right;
+}
+
+/* line 64, ../sass/_profile.scss */
+.person-picture {
+  border-radius: 50%;
+}
+
+/* line 1, ../sass/_button.scss */
+.btn.btn-primary {
+  background-color: #E77259;
+  border-radius: 20px;
+  border: 0;
+  font-weight: bold;
+}
+/* line 7, ../sass/_button.scss */
+.btn.btn-primary:hover, .btn.btn-primary:focus {
+  background-color: #E77259;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /* line 9, ../sass/vendor/bootstrap/bootstrap/_normalize.scss */
 html {
@@ -11010,13 +11086,27 @@ button.close {
     display: none !important;
   }
 }
-/* line 6, ../sass/main.scss */
+/* line 8, ../sass/main.scss */
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-shadow: none !important;
 }
 
-/* line 11, ../sass/main.scss */
+/* line 14, ../sass/main.scss */
 a {
-  color: #00B7FF;
+  color: #353535;
+}
+
+/* line 18, ../sass/main.scss */
+[class^="icon-"], [class*=" icon-"] {
+  margin-right: 3px;
+}
+
+/* line 22, ../sass/main.scss */
+h2.section-header {
+  font-size: 16px;
+  color: #353535;
+  border-bottom: 1px solid #353535;
+  padding-bottom: 6px;
 }

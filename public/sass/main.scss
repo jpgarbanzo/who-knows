@@ -1,13 +1,27 @@
 @import "_icons.scss";
 @import "_variables.scss";
+@import "_profile.scss";
+@import "_button.scss";
 @import "vendor/bootstrap/_bootstrap.scss";
- 
- 
+
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-shadow: none !important;
 }
 
 a {
-  color: #00B7FF;
+  color: $color-dark;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    margin-right: 3px;
+}
+
+h2.section-header {
+    font-size: 16px;
+    color: $color-dark;
+    border-bottom: 1px solid $color-dark;
+    padding-bottom: 6px;
 }

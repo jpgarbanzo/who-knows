@@ -50,58 +50,58 @@
             </div>
           </div>
 
-          <div class="row profile-person">
-          	<div class="col-md-2 picture">
-	          	<img src="{{picture}}"/>
+          <div class="row person-profile">
+          	<div class="col-md-3 picture">
+	          	<img src="{{picture}}" class="person-picture"/>
           	</div>
 
-          	<div class="col-md-3 details">
-          		<div class="name">
+          	<div class="col-md-4 details">
+          		<div class="name important-details">
           			{{name}}
           		</div>
-          		<div class="profession">
+          		<div class="profession important-details">
           			{{profession}}
           		</div>
           		<div class="expertise">
           			{{#each expertise}}
-          				<span>{{name}} </span>
+          				<span class="technology">{{name}} </span>
           			{{/each}}
           		</div>
           		<div class="phone contact">
-          			<a href="tel:{{phone}}">{{phone}}</a>
+          			<i class="icon-phone"></i><a href="tel:{{phone}}">{{phone}}</a>
           		</div>
           		<div class="email contact">
-          			<a href="tel:{{email}}">{{email}}</a>
+          			<i class="icon-mail"></i><a href="mailto:{{email}}">{{email}}</a>
           		</div>
-          		<div class="location">
-          			{{location}}
+          		<div class="location contact">
+          			<i class="icon-location"></i>{{location}}
           		</div>
           	</div>
 
-          	<div class="col-md-1">
+          	<div class="col-md-5">
           		<div class="score">
           		</div>
           		<div class="help-request">
           			<button class="btn btn-primary">
-          				HELP
+          				Help!
           			</button>
           		</div>
           	</div>
           </div>
 
-          <div class="projects">
-          	<h2>
+          <div class="profile-projects">
+          	<h2 class="section-header">
           		{{name}}'s projects
           	</h2>
 
           	<div class="row">
 	          	{{#each projects}}
-	          	<div class="col-md-1 project">
-	          		<div class="project-img">
-	          			<img src="{{picture}}"/>
+	          	<div class="col-md-3 project">
+	          		<div>
+	          			<img class="project-img" src="{{picture}}"/>
 	          		</div>
 
-	        	  	<div>{{projectName}}</div>
+	        	  	<div class="project-title">{{projectName}}</div>
 	        	  	<div class="project-tech">
 	        	  		{{#each tech}}
 	        	  			{{name}}
@@ -113,6 +113,10 @@
 	        	  			{{name}}
 	        	  		{{/each}}
 	        	  	</div>
+
+                    <div class="project-stars">
+                        {{stars}}<i class="icon-star-full"></i>
+                    </div>
 	        	</div>
 	        	{{/each}}
           	</div>
