@@ -1,3 +1,123 @@
-<body>
-asṕdfkj;lasdf klasjfh las
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Cover Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="/stylesheets/print.css"  rel="stylesheet" type="text/css" />
+	<link href="/stylesheets/main.css"  rel="stylesheet" type="text/css" />
+
+    <!-- Custom styles for this template -->
+    <link href="/stylesheets/cover.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+	<!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  	<![endif]-->
+   	
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Who Knows {{name}}</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Search</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="row profile-person">
+          	<div class="col-md-2 picture">
+	          	<img src="{{picture}}"/>
+          	</div>
+
+          	<div class="col-md-3 details">
+          		asd;lkfj as;ldfkj as;ldfkj as;dklfj 
+          	</div>
+
+          	<div class="col-md-1">
+          		<div class="score">
+          		</div>
+          		<div class="help-request">
+          			<button class="btn btn-primary">
+          				HELP
+          			</button>
+          		</div>
+          	</div>
+          </div>
+
+          <div class="projects">
+          	<h2>
+          		{{name}}'s projects
+          	</h2>
+
+          	<div class="row">
+	          	{{#each projects}} 
+	          	<div class="col-md-1 project">
+	          		<div class="project-img">
+	          			<img src="{{picture}}"/>
+	          		</div>
+
+	        	  	<div>{{projectName}}</div>
+	        	  	<div class="project-tech"> 
+	        	  		{{#each tech}} 
+	        	  			{{name}}
+	        	  		{{/each}}
+	        	  	</div>
+
+	        	  	<div class="project-members"> 
+	        	  		{{#each members}} 
+	        	  			{{name}}
+	        	  		{{/each}}
+	        	  	</div>
+	        	</div>
+	        	{{/each}}
+          	</div>	
+          </div>
+
+
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p> by Frailes Inc.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/javascripts/vendor/bootstrap-sass-twbs/assets/javascripts/bootstrap.js"></script>
+    <script data-main="/javascripts/main" src="/javascripts/vendor/requirejs/require.js"></script>
+  </body>
+</html>
