@@ -64,11 +64,11 @@
       <div class="row person-profile">
         <div class="container">
 
-                  <div class="col-xs-3 picture">
+                  <div class="col-md-3 picture">
                       <img src="{{picture}}" class="person-picture"/>
                   </div>
 
-                  <div class="col-xs-4 details">
+                  <div class="col-md-4 details">
                       <div class="name important-details">
                           {{name}}
                       </div>
@@ -91,7 +91,7 @@
                       </div>
                   </div>
 
-                  <div class="col-xs-5">
+                  <div class="col-md-5">
                       <div class="score">
                       </div>
                       <div class="help-request">
@@ -111,28 +111,34 @@
 
                   <div class="row">
                       {{#each projects}}
-                      <div class="col-xs-3 project">
-                          <div>
-                              <img class="project-img" src="{{picture}}"/>
-                          </div>
+                      <div class="col-md-3 col-sm-3">
+                          <a href="/project/{{../identificator}}/{{projectId}}" class="project-link">
+                            <div class="project">
+                              <div>
+                                  <img class="project-img" src="{{picture}}"/>
+                              </div>
 
-                          <div class="project-title">{{projectName}}</div>
-                          <div class="project-tech">
-                              {{#each tech}}
-                                  {{name}}
-                              {{/each}}
-                          </div>
+                              <div class="project-info">
+                                <div class="project-title">{{projectName}}</div>
+                                <div class="project-tech">
+                                    {{#each tech}}
+                                        {{name}}
+                                    {{/each}}
+                                </div>
 
-                          <div class="project-members">
-                              {{#each members}}
-                                  {{name}}
-                              {{/each}}
-                          </div>
+                                <div class="project-members">
+                                    {{#each members}}
+                                        {{name}}
+                                    {{/each}}
+                                </div>
 
-                          <div class="project-stars">
-                          <span class="stars">
-                              {{stars}}</span><i class="icon-star-full"></i>
-                          </div>
+                                <div class="project-stars">
+                                <span class="stars">
+                                    +{{stars}}</span><i class="icon-star-full"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
                       </div>
                       {{/each}}
                   </div>
