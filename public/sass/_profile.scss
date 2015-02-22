@@ -47,6 +47,12 @@
     }
 }
 
+.project-link {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 .profile-projects {
     text-align: left;
     background-color: $color-bright;
