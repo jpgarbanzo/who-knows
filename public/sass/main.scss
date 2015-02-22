@@ -4,6 +4,7 @@
 @import "_button.scss";
 @import "vendor/bootstrap/_bootstrap.scss";
 @import "_util.scss";
+@import "vendor/hint/hint.scss";
 
 body {
 	&.single-viewport {
@@ -39,11 +40,11 @@ h2.section-header {
 
 .cover-bg {
 	height: 100%;
+	width: 100%;
 	z-index: -1;
 	position:absolute;
 	img {
-	
-	height: 100%;
+		height: 100%;
 	}
 }
 
