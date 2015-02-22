@@ -5,7 +5,7 @@
 			<img src="{{ photo }}">
 		</div> 
 	</div>
-	<div class="col-md-10">
+	<div class="col-md-8">
 	<div class="name">{{ name }}</div>
 	<div class="role">{{ expertise }}</div>
 	<ul class="expertise-list">
@@ -15,6 +15,12 @@
 	</li>
 	{{/each}}
 	</ul>
+
+	</div>
+	<div class="col-md-2">
+		<span class="expertise-points" class="hint--bottom" data-hint="Expertise points">
+			Expertise: +{{weight}}
+		</span>
 	</div>
 	</a>
 </div>
