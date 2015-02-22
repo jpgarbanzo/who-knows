@@ -14,18 +14,18 @@ router.get('/:id_profile/:id_project', function(req, res, next) {
   				found_project = project;
   			}
   		};
-  		found_project.layout = false;  
+  		found_project.layout = false;
   		found_project.owner_name = profile.name;
   		found_project.owner_photo = profile.picture;
+      found_project.profession = profile.profession;
   		console.log(found_project);
 
 		res.render('project', found_project);
-
 	});
 
 
 
-    
+
 });
 
 module.exports = router;

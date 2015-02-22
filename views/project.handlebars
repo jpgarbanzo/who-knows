@@ -61,85 +61,49 @@
 
 <div class="site-container">
 
-      <div class="row person-profile">
+      <div class="row person-profile project">
         <div class="container">
 
                   <div class="col-xs-3 picture">
-                      <img src="{{picture}}" class="person-picture"/>
+                      <img src="{{owner_photo}}" class="person-picture"/>
                   </div>
 
                   <div class="col-xs-4 details">
                       <div class="name important-details">
-                          {{name}}
+                          {{owner_name}}
                       </div>
                       <div class="profession important-details">
                           {{profession}}
-                      </div>
-                      <div class="expertise">
-                          {{#each expertise}}
-                              <span class="technology">{{name}} </span>
-                          {{/each}}
-                      </div>
-                      <div class="phone contact">
-                          <i class="icon-phone"></i><a href="tel:{{phone}}">{{phone}}</a>
-                      </div>
-                      <div class="email contact">
-                          <i class="icon-mail"></i><a href="mailto:{{email}}">{{email}}</a>
-                      </div>
-                      <div class="location contact">
-                          <i class="icon-location"></i>{{location}}
-                      </div>
-                  </div>
-
-                  <div class="col-xs-5">
-                      <div class="score">
-                      </div>
-                      <div class="help-request">
-                          <button class="btn btn-primary">
-                              Help!
-                          </button>
                       </div>
                   </div>
           </div>
         </div>
 
-        <div class="profile-projects">
-          <div class="container">
-                  <h2 class="section-header">
-                      {{name}}'s projects
-                  </h2>
-
-                  <div class="row">
-                      {{#each projects}}
-                      <div class="col-xs-3 project">
-                          <div>
-                              <img class="project-img" src="{{picture}}"/>
-                          </div>
-
-                          <div class="project-title">{{projectName}}</div>
-                          <div class="project-tech">
-                              {{#each tech}}
-                                  {{name}}
-                              {{/each}}
-                          </div>
-
-                          <div class="project-members">
-                              {{#each members}}
-                                  {{name}}
-                              {{/each}}
-                          </div>
-
-                          <div class="project-stars">
-                          <span class="stars">
-                              {{stars}}</span><i class="icon-star-full"></i>
-                          </div>
-                      </div>
-                      {{/each}}
-                  </div>
+        <div class="container project-view">
+          <div class="col-xs-6">
+            <div class="project-image">
+              <img src="{{picture}}">
             </div>
           </div>
+          <div class="col-xs-6">
 
+            <div class="row project-team">
+              <i class="icon-users"></i>
+              {{#each members}}
+                <span class="mini-pic"><img src="{{picture}}" alt="{{name}}"></span>
+              {{/each}}
+            </div>
 
+            <div class="row project-tech">
+            <i class="icon-gear"></i>
+              {{#each tech}}
+                <span class="tech">
+                {{name}} </span>
+              {{/each}}
+            </div>
+
+          </div>
+        </div>
 
 
 
