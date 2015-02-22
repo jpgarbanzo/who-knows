@@ -85,20 +85,28 @@
           </div>
           <div class="col-xs-6">
 
-            <div class="row project-team">
-              <i class="icon-users"></i>
+            <div class="row project-row project-team">
+              <div class="col-xs-4">
+                <i class="icon-users"></i><span class="strong">Team:</span>
+              </div>
+              <div class="col-xs-8">
               {{#each members}}
-                <span class="mini-pic"><img src="{{picture}}" alt="{{name}}"></span>
+                <span><img class="mini-pic" src="{{picture}}" alt="{{name}}"></span>
               {{/each}}
+              </div>
             </div>
-         </div>
 
-            <div class="row project-tech">
-            <i class="icon-gear"></i>
-              {{#each tech}}
+
+            <div class="row project-row project-tech">
+              <div class="col-xs-4">
+                <i class="icon-cog"></i> <span class="strong">Technologies:</span>
+                </div>
+              <div class="col-xs-8">
+                {{#each tech}}
                 <span class="tech">
                 {{name}} </span>
-              {{/each}}
+                {{/each}}
+              </div>
             </div>
 
           </div>

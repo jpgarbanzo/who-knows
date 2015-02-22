@@ -5,5 +5,36 @@
 }
 
 .project-view {
+    color: $color-light;
+    .mini-pic {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
 
+    .project-row {
+        border-bottom: 1px solid $color-light;
+        height: 40px;
+        overflow: hidden;
+        padding-top: 10px;
+    }
+
+    .project-team {
+        border-top: 1px solid $color-light;
+        height: 60px;
+    }
+
+    .strong {
+        font-weight: bold;
+    }
+
+    .tech {
+        color: white;
+        background-color: $color-light;
+        text-transform: uppercase;
+        border-radius: 6px;
+        margin-right: 4px;
+        padding: 2px;
+        display: inline-block;
+    }
 }

@@ -2596,6 +2596,43 @@
   margin-top: 25px;
 }
 
+/* line 7, ../sass/_project.scss */
+.project-view {
+  color: #969696;
+}
+/* line 9, ../sass/_project.scss */
+.project-view .mini-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+/* line 15, ../sass/_project.scss */
+.project-view .project-row {
+  border-bottom: 1px solid #969696;
+  height: 40px;
+  overflow: hidden;
+  padding-top: 10px;
+}
+/* line 22, ../sass/_project.scss */
+.project-view .project-team {
+  border-top: 1px solid #969696;
+  height: 60px;
+}
+/* line 27, ../sass/_project.scss */
+.project-view .strong {
+  font-weight: bold;
+}
+/* line 31, ../sass/_project.scss */
+.project-view .tech {
+  color: white;
+  background-color: #969696;
+  text-transform: uppercase;
+  border-radius: 6px;
+  margin-right: 4px;
+  padding: 2px;
+  display: inline-block;
+}
+
 /* line 1, ../sass/_button.scss */
 .btn.btn-primary {
   background-color: #E77259;
