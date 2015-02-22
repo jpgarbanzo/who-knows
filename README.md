@@ -2,6 +2,8 @@
 
 Make sure you have nodejs installed
 
+run sudo npm install -d
+
 ### mongo
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --
 recv 7F0CEB10
