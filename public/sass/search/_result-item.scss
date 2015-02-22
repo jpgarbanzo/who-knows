@@ -1,9 +1,38 @@
+@import "variables";
+
+$result-item-photo-width : 90px;
+
 
 .result-item {
 	.photo-wrap {
 		overflow: hidden;
 		border-radius : 50%;
-		width: 110px;
-		height: 110px;
+		width: $result-item-photo-width;
+		height: $result-item-photo-width;
+		img {
+			height: $result-item-photo-width;
+			width: $result-item-photo-width;
+		}
 	} 
+	.name {
+		color: $color-dark;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.role {
+		color: $color-light;
+		font-size: 18px;
+	}
+	.expertise-list {
+		padding: 0;
+		li {
+			text-transform: uppercase;
+			display: inline-block;
+		}
+		.expertise-area {
+			font-size: 0.9em;
+			background-color: $color-orange;
+		}
+	}
+
 }

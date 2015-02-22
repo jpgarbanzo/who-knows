@@ -3,15 +3,16 @@ define([
 	'jquery',
 	'underscore',
 	'backbone',
+	'handlebars',
 	'text!templates/result-item.html'
-], function ($, _, Backbone, resultItemTemplate) {
+], function ($, _, Backbone, handlebars, resultItemTemplate) {
 	'use strict';
 
 	var ResultItemView = Backbone.View.extend({
 
 		tagName:  'li',
 
-		template: _.template(resultItemTemplate),
+		template: handlebars.compile( resultItemTemplate ),
 
 		// The DOM events specific to an item.
 		events: {

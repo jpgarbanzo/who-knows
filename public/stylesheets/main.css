@@ -2541,26 +2541,38 @@
   margin: 0 10px;
 }
 /* line 74, ../sass/_profile.scss */
+.profile-projects .project:hover .project-bg {
+  background-color: white;
+  opacity: .8;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+/* line 88, ../sass/_profile.scss */
 .profile-projects .project-img {
   width: 100%;
   margin-bottom: 6px;
 }
-/* line 79, ../sass/_profile.scss */
+/* line 93, ../sass/_profile.scss */
 .profile-projects .project-title {
   font-size: 16px;
   color: #E77259;
 }
-/* line 84, ../sass/_profile.scss */
+/* line 98, ../sass/_profile.scss */
 .profile-projects .project-tech, .profile-projects .project-members {
   color: #969696;
   height: 18px;
   overflow: hidden;
 }
-/* line 90, ../sass/_profile.scss */
+/* line 104, ../sass/_profile.scss */
 .profile-projects .project-tech {
   text-transform: uppercase;
 }
-/* line 94, ../sass/_profile.scss */
+/* line 108, ../sass/_profile.scss */
 .profile-projects .project-stars {
   color: #353535;
   text-align: right;
@@ -2568,13 +2580,13 @@
   bottom: 10px;
   right: 8px;
 }
-/* line 101, ../sass/_profile.scss */
+/* line 115, ../sass/_profile.scss */
 .profile-projects .project-stars .stars {
   font-weight: bold;
   margin-right: 3px;
 }
 
-/* line 108, ../sass/_profile.scss */
+/* line 122, ../sass/_profile.scss */
 .person-picture {
   border-radius: 50%;
 }
@@ -11137,28 +11149,33 @@ body {
   font: 14px Futura, 'Trebuchet MS', Arial, sans-serif;
   text-shadow: none !important;
 }
+/* line 9, ../sass/main.scss */
+body.single-viewport {
+  overflow: hidden;
+  height: 100%;
+}
 
-/* line 13, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 a {
   color: #353535;
 }
 
-/* line 17, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 .site-container {
   margin-top: 50px;
 }
 
-/* line 21, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 [class^="icon-"], [class*=" icon-"] {
   margin-right: 3px;
 }
 
-/* line 25, ../sass/main.scss */
+/* line 29, ../sass/main.scss */
 .mastfoot {
   text-align: center;
 }
 
-/* line 29, ../sass/main.scss */
+/* line 33, ../sass/main.scss */
 h2.section-header {
   font-size: 16px;
   color: #353535;
@@ -11166,12 +11183,66 @@ h2.section-header {
   padding-bottom: 6px;
 }
 
-/* line 3, ../sass/search/_search.scss */
-.search-container {
+/* line 40, ../sass/main.scss */
+.cover-bg {
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+/* line 44, ../sass/main.scss */
+.cover-bg img {
+  height: 100%;
+}
+
+/* line 50, ../sass/main.scss */
+.hero-msg {
+  text-align: center;
+  text-shadow: 2px 0px 15px #000;
+  margin-top: 210px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+/* line 58, ../sass/main.scss */
+body > .container {
+  padding-top: 40px;
+}
+
+/* line 62, ../sass/main.scss */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+}
+/* line 69, ../sass/main.scss */
+.footer .author {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* line 75, ../sass/main.scss */
+.navbar-brand {
+  padding: 4px;
+}
+
+/* line 6, ../sass/search/_search.scss */
+.search-component {
   position: relative;
 }
-/* line 6, ../sass/search/_search.scss */
-.search-container .search-bg {
+/* line 9, ../sass/search/_search.scss */
+.search-component.start-state {
+  top: 400px;
+}
+/* line 13, ../sass/search/_search.scss */
+.search-component.animated-growth {
+  -webkit-animation: animate-to-top 0.4s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+}
+/* line 18, ../sass/search/_search.scss */
+.search-component .search-bg {
   background-color: black;
   opacity: 0.5;
   position: absolute;
@@ -11180,14 +11251,14 @@ h2.section-header {
   left: 0;
   bottom: 0;
 }
-/* line 16, ../sass/search/_search.scss */
-.search-container .icon-search {
+/* line 28, ../sass/search/_search.scss */
+.search-component .icon-search {
   position: absolute;
   top: 7px;
   left: 14px;
 }
-/* line 21, ../sass/search/_search.scss */
-.search-container .search-box-wrap {
+/* line 33, ../sass/search/_search.scss */
+.search-component .search-box-wrap {
   margin: 10px auto;
   width: 50%;
   font-size: 25px;
@@ -11195,26 +11266,86 @@ h2.section-header {
   color: #353535;
   padding: 16px 0px;
 }
-/* line 29, ../sass/search/_search.scss */
-.search-container .search-box-inner {
+/* line 41, ../sass/search/_search.scss */
+.search-component .search-box-inner {
   position: relative;
 }
-/* line 32, ../sass/search/_search.scss */
-.search-container .search-box {
+/* line 44, ../sass/search/_search.scss */
+.search-component .search-box {
   width: 100%;
   padding-left: 49px;
   border-radius: 18px;
 }
-
-/* line 3, ../sass/search/_results.scss */
-.search-results .search-results-list li {
-  list-style: none;
+/* line 49, ../sass/search/_search.scss */
+.search-component .no-results {
+  font-size: 25px;
+  padding: 50px;
+  text-align: center;
 }
 
-/* line 3, ../sass/search/_result-item.scss */
+@-webkit-keyframes animate-to-top {
+  0% {
+    top: 400px;
+  }
+  100% {
+    /*translate3d: none; */
+    top: 0;
+  }
+}
+/* line 4, ../sass/search/_results.scss */
+.search-results .results-info {
+  display: none;
+}
+/* line 8, ../sass/search/_results.scss */
+.search-results.has-results .results-info {
+  display: block;
+  border-bottom: 1px solid #353535;
+  margin: 15px 0;
+}
+/* line 14, ../sass/search/_results.scss */
+.search-results .search-results-list {
+  padding: 0;
+}
+/* line 16, ../sass/search/_results.scss */
+.search-results .search-results-list li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+/* line 7, ../sass/search/_result-item.scss */
 .result-item .photo-wrap {
   overflow: hidden;
   border-radius: 50%;
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
+}
+/* line 12, ../sass/search/_result-item.scss */
+.result-item .photo-wrap img {
+  height: 90px;
+  width: 90px;
+}
+/* line 17, ../sass/search/_result-item.scss */
+.result-item .name {
+  color: #353535;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 22, ../sass/search/_result-item.scss */
+.result-item .role {
+  color: #969696;
+  font-size: 18px;
+}
+/* line 26, ../sass/search/_result-item.scss */
+.result-item .expertise-list {
+  padding: 0;
+}
+/* line 28, ../sass/search/_result-item.scss */
+.result-item .expertise-list li {
+  text-transform: uppercase;
+  display: inline-block;
+}
+/* line 32, ../sass/search/_result-item.scss */
+.result-item .expertise-list .expertise-area {
+  font-size: 0.9em;
+  background-color: #E77259;
 }
