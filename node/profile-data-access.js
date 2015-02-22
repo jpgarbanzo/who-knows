@@ -8,7 +8,8 @@ var expertiseSchema = mongoose.Schema({
 });
 
 var projectMemberSchema = mongoose.Schema({
-	name : String
+	name : String,
+	picture: String
 });
 
 var techSchema = mongoose.Schema({
@@ -18,6 +19,10 @@ var techSchema = mongoose.Schema({
 var projectSchema = mongoose.Schema({
 	projectId : String,
 	projectName : String,
+	create_on : String,
+	link : String,
+	status : String,
+	description : String,
 	tech : [techSchema],
 	members : [projectMemberSchema],
 	picture : String,

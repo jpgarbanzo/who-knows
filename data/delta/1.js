@@ -35,6 +35,10 @@ db.profile.insert({
 			{
 				projectId : "space-x",
 				projectName : "Space X",
+				create_on : "21 Feb-2014",
+				link : "www.space-x.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "HTML5"
@@ -45,13 +49,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					},
 					{
-						name : "Barbara Stuart"
+						name : "Barbara Stuart",
+						picture : "/images/people/perfil_4.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_1b.png',
@@ -61,6 +68,10 @@ db.profile.insert({
 			{
 				projectId : "falaniux",
 				projectName : "Falaniux",
+				create_on : "21 Feb-2014",
+				link : "www.falaniux.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Flash"
@@ -74,13 +85,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_2b.png',
@@ -89,6 +103,10 @@ db.profile.insert({
 			{
 				projectId : "expertise-me",
 				projectName : "Expertise.Me",
+				create_on : "21 Feb-2014",
+				link : "www.expertise.me",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "HTML5"
@@ -102,10 +120,12 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_3b.png',
@@ -114,6 +134,10 @@ db.profile.insert({
 			{
 				projectId : "what-the-zig",
 				projectName : "What the Zig!",
+				create_on : "21 Feb-2014",
+				link : "www.what-the-zig.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Nodejs"
@@ -127,13 +151,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					},
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					},
 					{
-						name : "Barbara Stuart"
+						name : "Barbara Stuart",
+						picture : "/images/people/perfil_4.png"
 					}
 				],
 				picture : '/images/projects/portafolio_4b.png',
@@ -142,6 +169,10 @@ db.profile.insert({
 			{
 				projectId : "essencials",
 				projectName : "Essentials",
+				create_on : "21 Feb-2014",
+				link : "www.essencials.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Angular"
@@ -155,10 +186,12 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					}
 				],
 				picture : '/images/projects/portafolio_5b.png',
@@ -203,6 +236,10 @@ db.profile.insert({
 			{
 				projectId : "essencials",
 				projectName : "Essentials",
+				create_on : "21 Feb-2014",
+				link : "www.essencials.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Angular"
@@ -216,10 +253,12 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					}
 				],
 				picture : '/images/projects/portafolio_5b.png',
@@ -228,6 +267,10 @@ db.profile.insert({
 			{
 				projectId : "falaniux",
 				projectName : "Falaniux",
+				create_on : "21 Feb-2014",
+				link : "www.falaniux.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Flash"
@@ -241,13 +284,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_2b.png',
@@ -256,6 +302,10 @@ db.profile.insert({
 			{
 				projectId : "expertise-me",
 				projectName : "Expertise.Me",
+				create_on : "21 Feb-2014",
+				link : "www.expertise.me",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "HTML5"
@@ -269,10 +319,12 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_3b.png',
@@ -281,6 +333,10 @@ db.profile.insert({
 			{
 				projectId : "space-x",
 				projectName : "Space X",
+				create_on : "21 Feb-2014",
+				link : "www.space-x.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "HTML5"
@@ -291,13 +347,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "Barbara Stuart"
+						name : "Barbara Stuart",
+						picture : "/images/people/perfil_4.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_1b.png',
@@ -307,6 +366,10 @@ db.profile.insert({
 			{
 				projectId : "what-the-zig",
 				projectName : "What the Zig!",
+				create_on : "21 Feb-2014",
+				link : "www.what-the-zig.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Nodejs"
@@ -320,13 +383,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "Barbara Stuart"
+						name : "Barbara Stuart",
+						picture : "/images/people/perfil_4.png"
 					}
 				],
 				picture : '/images/projects/portafolio_4b.png',
@@ -370,6 +436,10 @@ db.profile.insert({
 			{
 				projectId : "expertise-me",
 				projectName : "Expertise.Me",
+				create_on : "21 Feb-2014",
+				link : "www.expertise.me",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "HTML5"
@@ -383,10 +453,12 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					}
 				],
 				picture : '/images/projects/portafolio_3b.png',
@@ -395,6 +467,10 @@ db.profile.insert({
 			{
 				projectId : "essencials",
 				projectName : "Essentials",
+				create_on : "21 Feb-2014",
+				link : "www.essencials.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Angular"
@@ -408,10 +484,12 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					}
 				],
 				picture : '/images/projects/portafolio_5b.png',
@@ -420,6 +498,10 @@ db.profile.insert({
 			{
 				projectId : "falaniux",
 				projectName : "Falaniux",
+				create_on : "21 Feb-2014",
+				link : "www.falaniux.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Flash"
@@ -433,13 +515,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					}
 				],
 				picture : '/images/projects/portafolio_2b.png',
@@ -448,6 +533,10 @@ db.profile.insert({
 			{
 				projectId : "what-the-zig",
 				projectName : "What the Zig!",
+				create_on : "21 Feb-2014",
+				link : "www.what-the-zig.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Nodejs"
@@ -461,13 +550,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					},
 					{
-						name : "Barbara Stuart"
+						name : "Barbara Stuart",
+						picture : "/images/people/perfil_4.png"
 					}
 				],
 				picture : '/images/projects/portafolio_4b.png',
@@ -476,6 +568,10 @@ db.profile.insert({
 			{
 				projectId : "space-x",
 				projectName : "Space X",
+				create_on : "21 Feb-2014",
+				link : "www.space-x.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "HTML5"
@@ -486,13 +582,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "Barbara Stuart"
+						name : "Barbara Stuart",
+						picture : "/images/people/perfil_4.png"
 					},
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					}
 				],
 				picture : '/images/projects/portafolio_1b.png',
@@ -538,6 +637,10 @@ db.profile.insert({
 			{
 				projectId : "essencials",
 				projectName : "Essentials",
+				create_on : "21 Feb-2014",
+				link : "www.essencials.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Angular"
@@ -551,10 +654,12 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					}
 				],
 				picture : '/images/projects/portafolio_5b.png',
@@ -563,6 +668,10 @@ db.profile.insert({
 			{
 				projectId : "expertise-me",
 				projectName : "Expertise.Me",
+				create_on : "21 Feb-2014",
+				link : "www.expertise.me",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "HTML5"
@@ -576,10 +685,12 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_3b.png',
@@ -588,6 +699,10 @@ db.profile.insert({
 			{
 				projectId : "what-the-zig",
 				projectName : "What the Zig!",
+				create_on : "21 Feb-2014",
+				link : "www.what-the-zig.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Nodejs"
@@ -601,13 +716,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					}
 				],
 				picture : '/images/projects/portafolio_4b.png',
@@ -616,6 +734,10 @@ db.profile.insert({
 			{
 				projectId : "falaniux",
 				projectName : "Falaniux",
+				create_on : "21 Feb-2014",
+				link : "www.falaniux.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Flash"
@@ -629,13 +751,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Margareth Smith"
+						name : "Margareth Smith",
+						picture : "/images/people/perfil_5.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_2b.png',
@@ -644,6 +769,10 @@ db.profile.insert({
 			{
 				projectId : "space-x",
 				projectName : "Space X",
+				create_on : "21 Feb-2014",
+				link : "www.space-x.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "HTML5"
@@ -654,13 +783,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_1b.png',
@@ -705,6 +837,10 @@ db.profile.insert({
 			{
 				projectId : "essencials",
 				projectName : "Essentials",
+				create_on : "21 Feb-2014",
+				link : "www.essencials.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Angular"
@@ -718,10 +854,12 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					}
 				],
 				picture : '/images/projects/portafolio_5b.png',
@@ -730,6 +868,10 @@ db.profile.insert({
 			{
 				projectId : "what-the-zig",
 				projectName : "What the Zig!",
+				create_on : "21 Feb-2014",
+				link : "www.what-the-zig.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Nodejs"
@@ -743,13 +885,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "Barbara Stuart"
+						name : "Barbara Stuart",
+						picture : "/images/people/perfil_4.png"
 					}
 				],
 				picture : '/images/projects/portafolio_4b.png',
@@ -758,6 +903,10 @@ db.profile.insert({
 			{
 				projectId : "expertise-me",
 				projectName : "Expertise.Me",
+				create_on : "21 Feb-2014",
+				link : "www.expertise.me",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "HTML5"
@@ -771,10 +920,12 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_3b.png',
@@ -783,6 +934,10 @@ db.profile.insert({
 			{
 				projectId : "falaniux",
 				projectName : "Falaniux",
+				create_on : "21 Feb-2014",
+				link : "www.falaniux.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "Flash"
@@ -796,13 +951,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "David James"
+						name : "David James",
+						picture : "/images/people/perfil_2.png"
 					},
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_2b.png',
@@ -811,6 +969,10 @@ db.profile.insert({
 			{
 				projectId : "space-x",
 				projectName : "Space X",
+				create_on : "21 Feb-2014",
+				link : "www.space-x.com",
+				status : "complete",
+				description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 				tech : [ 
 					{
 						name : "HTML5"
@@ -821,13 +983,16 @@ db.profile.insert({
 				],
 				members : [
 					{
-						name : "Liam Brown"
+						name : "Liam Brown",
+						picture : "/images/people/perfil_1.png"
 					},
 					{
-						name : "Barbara Stuart"
+						name : "Barbara Stuart",
+						picture : "/images/people/perfil_4.png"
 					},
 					{
-						name : "Patricia Morgan"
+						name : "Patricia Morgan",
+						picture : "/images/people/perfil_3.png"
 					}
 				],
 				picture : '/images/projects/portafolio_1b.png',
