@@ -7,16 +7,22 @@ define([
 	'models/result-item',
 	'views/result-item',
 	'common',
+	'handlebars',
+	'text!templates/results-info.html',
+	'text!templates/no-results.html',
 	'vendor/jquery-mockjax'
-], function ($, _, Backbone, SearchResultsCollection, ResultItemModel, ResultItemView, Common) {
+], function ($, _, Backbone, SearchResultsCollection, ResultItemModel, ResultItemView, Common, handlebars, resultsInfo, noResultsTemplate) {
 	'use strict';
+
+	var HAS_RESULTS_CLASS = 'has-results';
+
 
 	// Our overall **AppView** is the top-level piece of UI.
 	var AppView = Backbone.View.extend({
 
 		// Instead of generating a new element, bind to the existing skeleton of
 		// the App already present in the HTML.
-		el: '.search-component',
+		el: '.site-container',
 
 		// // Compile our stats template
 		// template: _.template(statsTemplate),
@@ -28,12 +34,22 @@ define([
 
 		initialize: function () {
 			this.$input = this.$('.search-box');
+			this.$coverBg = this.$('.cover-bg');
+			this.$searchComponent = this.$('.search-component');
+			this.$heroMsg = this.$('.hero-msg');
+			this.$resultsCount = this.$('.result-count');
+			
 
+			this.tmp = {
+				numResults : handlebars.compile( resultsInfo )
+			}
+			this.$body = $('body');
+
+			this.$results = this.$('.search-results');
 			this.$resultsList = this.$('.search-results-list');
 			
 			this.listenTo(SearchResultsCollection, 'add', this.addOne);
 			this.listenTo(SearchResultsCollection, 'reset', this.addAll);
-
 		},
 
 		// Re-rendering the App just means refreshing the statistics -- the rest
@@ -51,17 +67,29 @@ define([
 		// Add all items in the **Todos** collection at once.
 		addAll: function () {
 			this.$resultsList.empty();
+
 			SearchResultsCollection.each(this.addOne, this);
 		},
 
 		createOnEnter: function (e) {
+
+			// if (e.which !== Common.ENTER_KEY || !this.$input.val().trim()) {
+			// 	return;
+			// }
+
 			var searchTerm = this.$input.val().trim();
+
+			this.switchToSeamlessMode();
+			
 			console.log('Searching for: ', searchTerm);
 			$.get('/api/search', { q : searchTerm }, $.proxy(this.processSearchResponse, this));
 
-			if (e.which !== Common.ENTER_KEY || !this.$input.val().trim()) {
-				return;
-			}
+		},
+		switchToSeamlessMode : function () {
+			this.$coverBg.fadeOut();
+			this.$heroMsg.fadeOut();
+			this.$body.removeClass('single-viewport');
+			this.$searchComponent.addClass('animated-growth');
 		},
 		/**
 			Gets and displays the results
@@ -71,12 +99,19 @@ define([
 			var self = this,
 				results = data.result;
 
-			// Clear previous results
-			SearchResultsCollection.reset();
+			if (!results || !results.length || results.length == 0) {
+				this.$resultsList.html(noResultsTemplate);
+				this.$results.removeClass(HAS_RESULTS_CLASS);
+			} else {
+				// Clear previous results
+				SearchResultsCollection.reset();
+				$.each(results, function () {
+					SearchResultsCollection.add(this);
+				});
+				this.$results.addClass(HAS_RESULTS_CLASS);
+				this.$resultsCount.html(this.tmp.numResults({numResults : results.length }));
+			}
 			
-			$.each(results, function () {
-				SearchResultsCollection.add(this);
-			});
 		}	
 	});
 

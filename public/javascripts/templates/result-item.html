@@ -1,13 +1,21 @@
 <div class="row result-item">
+	<a href="/profile/{{ idUser }}">
 	<div class="col-md-2"> 
 		<div class="photo-wrap">
-			<img src="<%- photo %>">
+			<img src="{{ photo }}">
 		</div> 
 	</div>
 	<div class="col-md-10">
-	<span><%- name %></span>
-	<div><%- expertise %></div>
-	<label><%- expertiseList %></label>
+	<div class="name">{{ name }}</div>
+	<div class="role">{{ expertise }}</div>
+	<ul class="expertise-list">
+	{{#each expertiseList}}
+	<li>
+		<span class="expertise-area badge">{{.}}</span>
+	</li>
+	{{/each}}
+	</ul>
 	</div>
+	</a>
 </div>
 

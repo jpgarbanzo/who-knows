@@ -1,7 +1,19 @@
 @import "variables";
 
-.search-container {
+$start-state-top: 400px;
+
+
+.search-component {
 	position: relative;
+
+	&.start-state {
+		top: $start-state-top;
+	}
+
+    &.animated-growth {
+        -webkit-animation: animate-to-top 0.4s ease-in-out;
+        -webkit-animation-fill-mode: forwards;  
+    }
 
 	.search-bg {
 		background-color: black;
@@ -34,5 +46,16 @@
 		padding-left: 49px;
 		border-radius: 18px;
 	}
+	.no-results {
+		font-size: 25px;			
+		padding: 50px;
+		text-align: center;
+	}
+}
 
+@-webkit-keyframes animate-to-top {
+    0% { top: $start-state-top;}
+    100% {  
+    /*translate3d: none; */
+    top:0; }
 }
