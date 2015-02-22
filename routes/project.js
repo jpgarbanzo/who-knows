@@ -1,5 +1,4 @@
 var express = require('express');
-var _ = require('underscore');
 var router = express.Router();
 var Profile = require('../node/profile-data-access');
 
